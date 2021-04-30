@@ -26,15 +26,15 @@ archivo$Dias=archivo$`AUTOS (F)`*archivo$`MOTOS (F)`
 
 #HOMBRES
 
-#Se grafica la grafica de REGRESIÓN LINEAL SIMPLE PARA MAYO 2021 
+#Se grafica la grafica de REGRESI?N LINEAL SIMPLE PARA MAYO 2021 
 archivo %>%
   ggplot(aes(x=Dias,y=`AUTOS (M)...4`)) + geom_point()+ geom_abline(intercept =15.227270 ,slope = 0.092671,col = 'blue')+ geom_vline(xintercept = 30, col = "red")
 
-#Se grafica la grafica de REGRESIÓN LINEAL SIMPLE PARA JUNIO 2021 
+#Se grafica la grafica de REGRESI?N LINEAL SIMPLE PARA JUNIO 2021 
 archivo %>%
   ggplot(aes(x=Dias,y=`AUTOS (M)...4`)) + geom_point()+ geom_abline(intercept =15.227270 ,slope = 0.092671,col = 'blue')+ geom_vline(xintercept = 60, col = "red")
 
-#Se grafica la grafica de REGRESIÓN LINEAL SIMPLE PARA JULIO 2021 
+#Se grafica la grafica de REGRESI?N LINEAL SIMPLE PARA JULIO 2021 
 archivo %>%
   ggplot(aes(x=Dias,y=`AUTOS (M)...4`)) + geom_point()+ geom_abline(intercept =15.227270 ,slope = 0.092671,col = 'blue')+ geom_vline(xintercept = 90, col = "red")
 
@@ -59,15 +59,15 @@ abline(h=0)
 
 #MUJERES
 
-#Se grafica la grafica de REGRESIÓN LINEAL SIMPLE PARA MAYO 2021 
+#Se grafica la grafica de REGRESI?N LINEAL SIMPLE PARA MAYO 2021 
 archivo %>%
   ggplot(aes(x=Dias,y=`AUTOS (F)`)) + geom_point()+ geom_abline(intercept =3.756944 ,slope = 0.021532,col = 'blue')+ geom_vline(xintercept = 30, col = "yellow")
 
-#Se grafica la grafica de REGRESIÓN LINEAL SIMPLE PARA MAYO 2021 
+#Se grafica la grafica de REGRESI?N LINEAL SIMPLE PARA JUNIO 2021 
 archivo %>%
   ggplot(aes(x=Dias,y=`AUTOS (F)`)) + geom_point()+ geom_abline(intercept =3.756944 ,slope = 0.021532,col = 'blue')+ geom_vline(xintercept = 60, col = "yellow")
 
-#Se grafica la grafica de REGRESIÓN LINEAL SIMPLE PARA MAYO 2021 
+#Se grafica la grafica de REGRESI?N LINEAL SIMPLE PARA JULIO 2021 
 archivo %>%
   ggplot(aes(x=Dias,y=`AUTOS (F)`)) + geom_point()+ geom_abline(intercept =3.756944 ,slope = 0.021532,col = 'blue')+ geom_vline(xintercept = 90, col = "yellow")
 
